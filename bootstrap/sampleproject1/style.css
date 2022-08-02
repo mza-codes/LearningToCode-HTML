@@ -1,0 +1,9 @@
+.col-xs-12{
+    background: linear-gradient(rgb(186, 196, 184),rgb(0, 57, 10));
+}
+.photo{
+    width: 90%;
+    height: 65%;
+    margin-top: 5%;
+    margin-left: 5%;
+}

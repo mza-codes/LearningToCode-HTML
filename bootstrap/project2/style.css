@@ -1,0 +1,30 @@
+.bg-dark{
+    background: linear-gradient(rgb(0, 0, 0),rgb(127, 0, 0));
+}
+.navbar-dark{
+
+}
+.nfont{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbarfont2{
+    font-size: 1px;
+    color: aliceblue;
+}
+.inputfield{
+    height: 10px;
+}
+.resize{
+    width: 10%;
+    height: 60%;
+}
+.dfont{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-toggler-icon{
+    
+    position: relative;
+}
+
+

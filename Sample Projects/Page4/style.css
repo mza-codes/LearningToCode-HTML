@@ -1,0 +1,7 @@
+.but{
+    border-radius: 10px;
+    border-color: rgb(255, 0, 0);
+    border-width: 4px;
+    background-color: black;
+    color: aliceblue;
+}

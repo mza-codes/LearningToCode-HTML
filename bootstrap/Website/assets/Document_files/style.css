@@ -1,0 +1,195 @@
+.font1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+}
+.gradientheader{
+    /* background: linear-gradient(rgb(58, 156, 88),rgb(46, 25, 25)); */
+    background: linear-gradient(#2f2f16,rgb(255, 221, 128));
+    
+}
+.font0{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-toggler-ion{
+    
+    outline-color:white !important;
+}
+.gradient{
+    /* background: linear-gradient(orange,black); */
+    /* background: radial-gradien(rgb(101, 39, 39),rgb(26, 6, 44)); */
+    /* background: radial-gradient(rgb(50, 6, 125),rgb(255, 255, 255)); */
+    background:  repeating-radial-gradient(#f8f6bd,#ffffff) ;
+}
+.resize{
+    width: 80%;
+    height: 90%;
+}
+.font2{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-style: oblique; 
+}
+.font3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-style: oblique;
+}
+.quote1{
+    font-style: italic;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.quote2{
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lastbox{
+    background-color: rgb(120, 5, 101)!important;
+}
+.middle{
+    background: radial-gradient(#ffffff,#176724);
+}
+.bodyimg0{
+    background-image:url(/bootstrap/Website/assets/bg.jpg);
+    background-color: #cccccc;
+    height: 15em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.carousel-inner0{
+    object-fit: contain;
+}
+.fontinimage{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#gallery0{
+    background: radial-gradient(rgb(140, 146, 96),rgb(255, 255, 255))
+}
+.image{
+    
+    /* object-fit: contain; */
+    object-fit: contain;
+    height: 25em ;
+}
+.radial-gradient{
+    /* background:  repeating-radial-gradient(#f8f6bd,#ffffff) */
+    background: radial-gradient(rgb(255, 221, 128),#ffff);
+
+}
+.black{
+    /* background-color: black; */
+    color: black;
+}
+.fontp{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-size: 0.4em;
+}
+.serif{
+    font-family: serif;
+    color: #ffffff;
+    font-size: 0.8em;
+    /* object-fit: scale-down; */
+    /* text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; */
+}
+.heading{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-weight: bolder;
+}
+.goto{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: serif;
+    
+}
+.librarycard{
+     /* background: radial-gradient(brown,black);  */
+    /* background-image: url(/bootstrap/Website/assets/bg.jpg); */
+    /* background-image: url(bg.jpg); */
+    background-image: url(assets/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+
+}
+.librarycardtitle{
+    color: #ffffff;
+    font-size: 1em; 
+    font-family: serif;
+    /* text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; */
+
+}
+.contact{
+    font-family: serif;
+}
+#fon{
+    font-family: serif;
+}
+.copyrights{
+    font-family: serif;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+
+/* this  is point */
+
+.fa {  
+  padding: 20px;  
+text-align: center;  
+  margin: 5px 2px;  
+  font-size: 30px;  
+  width: 50px;  
+}  
+.fa-facebook {  
+  /* background: #3B5998;   */
+  color: rgb(0, 0, 0);  
+}  
+.fa-twitter {  
+  /* background: #55ACEE;   */
+  color: rgb(0, 0, 0);  
+}  
+.fa-pinterest {  
+  /* background: #cb2027;   */
+  color: rgb(0, 0, 0);  
+}  
+.fa-linkedin {  
+  /* background: #007bb5;   */
+  color: rgb(0, 0, 0);  
+}  
+.fa-instagram {  
+  /* background: #125688;   */
+  color: rgb(0, 0, 0);  
+}  
+.fa-youtube {  
+  /* background: #bb0000;   */
+  color: rgb(0, 0, 0);  
+}  
+.fa-google {  
+  /* background: #dd4b39;   */
+  color: rgb(0, 0, 0);  
+}  
+.fa-snapchat-ghost {  
+  /* background: #fffc00;  
+  color: white;  
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;   */
+  color: rgb(0, 0, 0); 
+}  
+.fa-skype {  
+  /* background: #00aff0;   */
+  color: rgb(0, 0, 0);  
+}  
+.fa:hover {  
+    opacity: 0.9;  
+}  

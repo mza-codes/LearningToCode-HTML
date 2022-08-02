@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 WebPage JQuery</title>
+</head>
+<body>
+    <button id="btn" style="border-radius: 10px;border-color:rgb(255, 0, 0);border-width:4px;background-color: black;color: aliceblue;width: 100px;height: 50px;float: right;">C L I C K</button>
+    <div id="box" style="width: 800px;height:800px;background-color: rgb(121, 67, 0);float: left;">
+        <input type="text" id="input">
+        <br><label id="error" style="display: none;" >*Min 4 Characters Required!</label><br>
+        <input type="text">
+        
+    </div>
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                //alert("Button clicked")
+                $("#box").slideToggle(500)
+            })
+            $("#btn").mouseenter(function(){
+                $(this).css({"background-color":"green","color":"black"})
+            })
+            $("#btn").mouseleave(function(){
+                $(this).css({"background-color":"yellow","color":"black"})
+            })
+            $("#input").blur(function(){
+                var text=$(this).val()
+                if(text.length<4){
+                    $("#error").show()
+                }else{
+                    $("#error").hide()
+                }
+            })
+
+        
+        })
+        
+    </script>
+
+    
+</body>
+</html>

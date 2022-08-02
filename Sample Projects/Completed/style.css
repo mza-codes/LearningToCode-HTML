@@ -1,0 +1,18 @@
+button{
+    background: rgb(31, 2, 8);
+    color: rgb(23, 255, 6);
+    font-size: 1ch;
+}
+
+h5{
+    color: black;
+    font-style: italic;
+    font-size: 4ch;
+}
+#col{
+    color: darkred;
+}
+.colored{
+    color: deeppink;
+    background-color: rgb(0, 0, 0);
+}
